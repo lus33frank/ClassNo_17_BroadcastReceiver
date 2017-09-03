@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">No:17_BroadcastReceiver(廣播)</string>
+    <string name="xml_broadcastreceiver">廣播字串：</string>
+    <string name="xml_send">發送廣播</string>
+    <string name="xml_stop">取消廣播</string>
+    <string name="xml_reset">重設廣播</string>
+    <string name="class_staticReceiver_ok">廣播成功！</string>
+</resources>

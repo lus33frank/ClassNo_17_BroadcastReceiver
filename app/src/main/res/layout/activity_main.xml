@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tw.com.frankchang.houli.classno_17_broadcastreceiver.MainActivity"
+    android:orientation="vertical"
+    android:padding="@dimen/xml_padding">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="@dimen/xml_layout_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.7"
+            android:text="@string/xml_broadcastreceiver"
+            android:textSize="@dimen/xml_textSize"
+            android:textColor="@color/Blue"/>
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="@dimen/xml_layout_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="7.3"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            android:textSize="@dimen/xml_textSize"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/xml_send"
+        android:textSize="@dimen/xml_textSize"
+        android:layout_marginTop="@dimen/xml_layout_marginTop"
+        android:onClick="sendOnClick"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/xml_stop"
+        android:textSize="@dimen/xml_textSize"
+        android:layout_marginTop="@dimen/xml_layout_marginTop"
+        android:onClick="stopOnClick"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/xml_reset"
+        android:textSize="@dimen/xml_textSize"
+        android:layout_marginTop="@dimen/xml_layout_marginTop"
+        android:onClick="resetOnClick"/>
+
+</LinearLayout>
